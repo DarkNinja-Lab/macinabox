@@ -30,6 +30,7 @@ Dies sind sind die Einstellungen die ich für den Docker nutze
      Operating System Version : Hier kannst du die mac version auswählen die du Installieren möchtest ( BigSur ist Empfohlen )
      Install Type : Auto Install
      Vdisk Size : 180G ( Nach Belieben ..die Größe der Festplatte des Mac´s)
+     Vdisk Type: raw
      Opencore Stock or custom : stock
      Delete and repleace Opencore : no
      Override default NIC type : no
@@ -37,7 +38,7 @@ Dies sind sind die Einstellungen die ich für den Docker nutze
      VM Images Location AGAIN !!! : (hier das selbe verzeichniss wie bei : VM Images Location )
      Isos Share Location : /mnt/user/iso/ (euer iso verzeichniss)
      Isos Share Location AGAIN !!! : (hier das selbe verzeichniss wie bei : Isos Share Location  )
-     appdata : /mnt/user/appdata/
+     appdata : /mnt/user/appdata/macinabox
 Dann einfach auf APPLY, wenn die installation abgeschlossen ist auf "DOCKER" dann auf das macinabox logo und auf LOGS dann kannst du den Download
 fortschritt beobachten und siehst wann es Fertig ist.
 
