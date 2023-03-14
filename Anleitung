@@ -1,7 +1,7 @@
 # macinabox
 
 ein kleiner Guide um macOS auf Unraid zum Laufen zu bekomen
-bei Problemen oder Fragen an 
+bei Problemen oder Fragen: https://discord.gg/Y3NwUXKc3B 
 
 1. TOOLS
 Auf eurem Unraid Server -> "Apps" und dort nach "user scripts dort sind nun 2 Script datein, als erstes " suchen und installieren (ich habe das von Squid genommen)
