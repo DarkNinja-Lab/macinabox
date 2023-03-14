@@ -23,7 +23,9 @@ Nach dem Neustart:
 
 3.MACINABOX DOCKER
 Auf eurem Unraid Server -> "Apps" und dort nach "macinabox" suchen und installieren
-     network type : Bridge 
+
+Dies sind sind die Einstellungen die ich für den Docker nutze
+     Network Type : Bridge 
      Console shell command : Shell
      Operating System Version : Hier kannst du die mac version auswählen die du Installieren möchtest ( BigSur ist Empfohlen )
      Install Type : Auto Install
