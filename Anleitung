@@ -7,12 +7,12 @@ bei Problemen oder Fragen: https://discord.gg/Y3NwUXKc3B
 
 
 1. USER SCRIPT INSTALL
-Auf eurem Unraid Server -> "Apps" und dort nach "user scripts dort sind nun 2 Script datein,
+Auf eurem Unraid Server -> "Apps" und dort nach "user scripts dort sind nun 2 Script Dateien,
 als erstes " suchen und installieren (ich habe das von Squid genommen)
 
 
 2.GRAFIKKARTE PASSTHRU (Durchreichen)
-Auf eurem Unraid Server -> "TOOLS" -> System Devices hier müsst ihr dann eure Grafikkarte suchen und davor den Hacken Setze,
+Auf eurem Unraid Server -> "TOOLS" -> System Devices hier müsst ihr dann eure Grafikkarte suchen und davor den Haken setzen,
                                       ACHTUNG! nicht den Audio Controller der Grafikarte vergessen.
 Danach gehen wir zu "SETTINGS" -> VM Manager, hier ändern wir PCIe ACS override: Disabled zu PCIe ACS override: Both
 und VFIO allow unsafe interrupts: No zu VFIO allow unsafe interrupts: Yes und dann den Unraid Server Neustarten.
@@ -24,7 +24,7 @@ Nach dem Neustart:
 3.MACINABOX DOCKER
 Auf eurem Unraid Server -> "Apps" und dort nach "macinabox" suchen und installieren
      network type : Bridge 
-     Console shell command : Shel
+     Console shell command : Shell
      Operating System Version : Hier kannst du die mac version auswählen die du Installieren möchtest ( BigSur ist Empfohlen )
      Install Type : Auto Install
      Vdisk Size : 180G ( Nach Belieben ..die Größe der Festplatte des Mac´s)
@@ -44,8 +44,8 @@ wenn es geladen hat:
 
 
 4.SCRIPTE 
-Auf eurem Unraid Server -> "SETTINGS" und dann auf user scripts dort sind nun 2 Script datein, als erstes das 1_macinabox_vmready_notify -> RUN SCRIPT
-und dann wenn Oben Rechts eine Grüne medlung erscheint bei 1_macinabox_helper -> RUN SCRIPT wenn dies durchgeloffen ist:
+Auf eurem Unraid Server -> "SETTINGS" und dann auf user scripts dort sind nun 2 Script Dateien, als erstes das 1_macinabox_vmready_notify -> RUN SCRIPT
+und dann wenn Oben Rechts eine Grüne meldung erscheint bei 1_macinabox_helper -> RUN SCRIPT wenn dies durchgeloffen ist:
 
 
 5.DER MAC
