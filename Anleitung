@@ -1,9 +1,13 @@
 # macinabox
 
+ein kleiner Guide um macOS auf Unraid zum Laufen zu bekomen
+bei Problemen oder Fragen an 
 
-Deutsch :
+1. TOOLS
+Auf eurem Unraid Server -> "Apps" und dort nach "user scripts dort sind nun 2 Script datein, als erstes " suchen und installieren (ich habe das von Squid genommen)
 
-1. Auf eurem Unraid Server -> "Apps" und dort nach "macinabox" suchen und installieren
+2.MACINABOX
+Auf eurem Unraid Server -> "Apps" und dort nach "macinabox" suchen und installieren
      network type : Bridge 
      Console shell command : Shel
      Operating System Version : Hier kannst du die mac version auswählen die du Installieren möchtest ( BigSur ist Empfohlen )
@@ -17,3 +21,14 @@ Deutsch :
      Isos Share Location : /mnt/user/iso/ (euer iso verzeichniss)
      Isos Share Location AGAIN !!! : (hier das selbe verzeichniss wie bei : Isos Share Location  )
      appdata : /mnt/user/appdata/
+Dann einfach auf APPLY und machen lassen wenn die installation abgeschlossen ist auf "dashboard" dann auf das macinabox logo und auf LOGS dann kannst du den Download
+fortschritt beobachten und siehst wann es Fertig ist.
+
+wenn es geladen hat:
+
+3.SCRIPTE
+Auf eurem Unraid Server -> "SETTINGS" und dann auf user scripts dort sind nun 2 Script datein, als erstes das 1_macinabox_vmready_notify -> RUN SCRIPT
+und dann wenn Oben Rechts eine Grüne medlung erscheint bei 1_macinabox_helper -> RUN SCRIPT wenn dies durchgeloffen ist:
+
+4.DER MAC
+Auf eurem Unraid Server -> "VMS" und starte die VM Macinabox BigSur beim ersten start von der 
