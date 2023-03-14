@@ -4,8 +4,11 @@ MACINABOX
 ein kleiner Guide um macOS auf Unraid zum Laufen zu bekomen
 bei Problemen oder Fragen: https://discord.gg/Y3NwUXKc3B 
 
-1. TOOLS
+1. 
 Auf eurem Unraid Server -> "Apps" und dort nach "user scripts dort sind nun 2 Script datein, als erstes " suchen und installieren (ich habe das von Squid genommen)
+
+2.GRAFIKKARTE PASSTHRU
+Auf eurem Unraid Server -> "TOOLS" und dort nach
 
 2.MACINABOX
 Auf eurem Unraid Server -> "Apps" und dort nach "macinabox" suchen und installieren
@@ -32,4 +35,4 @@ Auf eurem Unraid Server -> "SETTINGS" und dann auf user scripts dort sind nun 2 
 und dann wenn Oben Rechts eine Grüne medlung erscheint bei 1_macinabox_helper -> RUN SCRIPT wenn dies durchgeloffen ist:
 
 4.DER MAC
-Auf eurem Unraid Server -> "VMS" und starte die VM Macinabox BigSur beim ersten start von der 
+Auf eurem Unraid Server -> "VMS" und dann auf das mac logo und EDIT
