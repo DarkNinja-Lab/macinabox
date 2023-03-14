@@ -4,13 +4,24 @@ MACINABOX
 ein kleiner Guide um macOS auf Unraid zum Laufen zu bekomen
 bei Problemen oder Fragen: https://discord.gg/Y3NwUXKc3B 
 
-1. 
-Auf eurem Unraid Server -> "Apps" und dort nach "user scripts dort sind nun 2 Script datein, als erstes " suchen und installieren (ich habe das von Squid genommen)
 
-2.GRAFIKKARTE PASSTHRU
-Auf eurem Unraid Server -> "TOOLS" und dort nach
 
-2.MACINABOX
+1. USER SCRIPT INSTALL
+Auf eurem Unraid Server -> "Apps" und dort nach "user scripts dort sind nun 2 Script datein,
+als erstes " suchen und installieren (ich habe das von Squid genommen)
+
+
+2.GRAFIKKARTE PASSTHRU (Durchreichen)
+Auf eurem Unraid Server -> "TOOLS" -> System Devices hier müsst ihr dann eure Grafikkarte suchen und davor den Hacken Setze,
+                                      ACHTUNG! nicht den Audio Controller der Grafikarte vergessen.
+Danach gehen wir zu "SETTINGS" -> VM Manager, hier ändern wir PCIe ACS override: Disabled zu PCIe ACS override: Both
+und VFIO allow unsafe interrupts: No zu VFIO allow unsafe interrupts: Yes und dann den Unraid Server Neustarten.
+
+
+Nach dem Neustart:
+
+
+3.MACINABOX DOCKER
 Auf eurem Unraid Server -> "Apps" und dort nach "macinabox" suchen und installieren
      network type : Bridge 
      Console shell command : Shel
@@ -25,14 +36,17 @@ Auf eurem Unraid Server -> "Apps" und dort nach "macinabox" suchen und installie
      Isos Share Location : /mnt/user/iso/ (euer iso verzeichniss)
      Isos Share Location AGAIN !!! : (hier das selbe verzeichniss wie bei : Isos Share Location  )
      appdata : /mnt/user/appdata/
-Dann einfach auf APPLY und machen lassen wenn die installation abgeschlossen ist auf "dashboard" dann auf das macinabox logo und auf LOGS dann kannst du den Download
+Dann einfach auf APPLY, wenn die installation abgeschlossen ist auf "DOCKER" dann auf das macinabox logo und auf LOGS dann kannst du den Download
 fortschritt beobachten und siehst wann es Fertig ist.
+
 
 wenn es geladen hat:
 
-3.SCRIPTE
+
+4.SCRIPTE 
 Auf eurem Unraid Server -> "SETTINGS" und dann auf user scripts dort sind nun 2 Script datein, als erstes das 1_macinabox_vmready_notify -> RUN SCRIPT
 und dann wenn Oben Rechts eine Grüne medlung erscheint bei 1_macinabox_helper -> RUN SCRIPT wenn dies durchgeloffen ist:
 
-4.DER MAC
+
+5.DER MAC
 Auf eurem Unraid Server -> "VMS" und dann auf das mac logo und EDIT
